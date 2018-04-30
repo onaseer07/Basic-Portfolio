@@ -1,0 +1,236 @@
+/* Elements */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 960px;
+    background-color: #ffffff;
+    border: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin: 20px 0px 0px 0px;
+    min-height: 270px; 
+    margin: 50px auto;
+    padding: 10px;
+    clear: both;
+    position: relative;
+}
+header {
+    position: relative;
+    margin: 0 0 10px 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px;
+    border-top: 0px; 
+    border-style: solid;
+    border-bottom-color: #cccccc;
+    padding: 50px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    clear: both;
+}
+p{
+    line-height: 2;
+    margin: 0px 0px 0px 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: #4aaaa5;
+    font-size: 30px;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #e0e0e0;
+}
+a:link {
+    padding: 5px;
+    color: #777777;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover {
+    color: #44aaa5;
+    background: #ffffff;
+    font-style: normal;
+    font-size: 20px;
+    transition: .5s;
+}
+a:visited {
+    padding: 5px;
+    color: #777777;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:visited:hover{
+    color: #44aaa5;
+    background: #ffffff;
+    font-style: normal;
+    font-size: 20px;
+    transition: .5s;
+}
+img {
+    object-fit: cover;
+}
+/* Classes */
+.headerContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+.mainPortfolio {
+    min-height: 950;
+}
+.portfolioContainer1 {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: #777777;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portfolioContainer2 {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: #777777;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail {
+    width: 350px;
+    height: 250px;
+    border: 0;
+}
+.portfolioDescription1 {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    clear:both;
+}
+.portfolioDescription2 {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    clear:both;
+}
+.footerContainer {
+    color: #cccccc;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* IDs */
+#logo {
+    max-height: 100px;
+    font-size: 35px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding: 36px;
+    position: absolute;
+    top: 0;
+}
+#navBar {
+    float: right;
+    word-spacing: 20px;
+    font-size: 20px;
+    color: #e0e0e0;
+}
+#bioImage {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+
+}
+#portfolio1 {
+    margin: 20px;
+}
+#portfolio2 {
+    margin: 20px;
+    clear: both;
+}
+#portfolio3 {
+    margin: 20px;
+    clear: both;
+}
+#name {
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    color: #777777;
+}
+#email {
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    color: #777777;
+}
+#message {
+    width: 100%;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+#submit {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+#submit:hover {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    background-color: #ffffff;
+    color: #4aaaa5;
+}
+#footerHR {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4aaaa5;
+    height: 10px;
+    border: 0px; 
+}
